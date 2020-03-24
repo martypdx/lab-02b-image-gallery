@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.sandwich-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid lightsteelblue;
+  border-radius: 3px;
+  box-shadow: 1px 2px 2px lightgray;
+}
+
+.sandwich-image {
+  height: 125px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sandwich-content {
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.sandwich-name {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.05em;
+}
+
+.sandwich-description {
+  font-size: .9em;
+  height: 110px;
+  overflow-y: auto;
+}
